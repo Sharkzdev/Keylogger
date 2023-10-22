@@ -1,6 +1,6 @@
 import smtplib
 
-to_email = 'sharkzdevelopement@gmail.com'
+to_email = 'dgfdfd193@gmail.com'
 from_email = 'dgfdfd193@gmail.com'
 message = 'hello'
 num_emails = 1
